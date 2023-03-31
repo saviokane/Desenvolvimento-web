@@ -2,7 +2,10 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: red;
 }
-
+div {
+    color: darkgrey;
+}
+                                    
 .h2px{
     font-size:14px;
     color:blue;
@@ -13,5 +16,12 @@ p{
 }
 
 li{
-    color: ;
+    color: brown;
+}
+.roxo{
+    color: purple;
+}
+
+.azul{
+    color: blue;
 }
