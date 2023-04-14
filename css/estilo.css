@@ -24,4 +24,36 @@ li{
 
 .azul{
     color: blue;
+
+
+}
+
+body > div {
+            border-width: 1px;
+            border-color: black;
+            border-style: dotted;
+            
+            width: 50vw;
+            height: 50vh; 
+            
+            background-color: lightgreen;
+            width: 50vh;
+            height: 50vh;
+
+            position: relative;
+            top: 50vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+
+            
+}
+div > div {
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
