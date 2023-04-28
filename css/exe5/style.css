@@ -1,0 +1,29 @@
+div {
+    height: 250px;
+    width: 250px;
+}
+
+#div_1{
+    background-color: red;
+}
+
+#div_2{
+    background-color: green;
+    bottom: 100px;
+    left: 100px;
+    position: relative;
+}
+
+#div_3{
+    background-color: blue;
+}
+
+#div_4{
+    background-color: purple;
+    bottom: 100px;
+    left: 100px;
+    position: relative;
+}
+
+
+
