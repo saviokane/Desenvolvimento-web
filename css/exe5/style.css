@@ -16,6 +16,8 @@ div {
 
 #div_3{
     background-color: blue;
+    z-index: 1;
+    position: relative;
 }
 
 #div_4{
@@ -23,6 +25,8 @@ div {
     bottom: 100px;
     left: 100px;
     position: relative;
+   
+    
 }
 
 

@@ -1,0 +1,84 @@
+div{
+    height: 50vw;
+    width: 30px;
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+
+}
+
+@media screen and (min-width: 1201px) {
+/*preciso arrumar esse negocio aqui para se adeqeuar a atividadeadd*/
+    div{
+        border-color: orangered;
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .grande{
+        visibility: visible;
+    }
+
+    .medio{
+        visibility: hidden;
+    }
+
+    .pequeno{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media screen and (max-width: 901px) {
+/*preciso arrumar esse negocio aqui para se adeqeuar a atividadeadd*/
+    div{
+        background-color: greenyellow;
+        height: 30%;
+        width: 30%;
+    }
+
+    .grande{
+        visibility: hidden;
+    }
+
+    .medio{
+        visibility: visible;
+    }
+
+    .pequeno{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    div{
+        border-color: orangered;
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .grande{
+        visibility: hidden;
+    }
+
+    .medio{
+        visibility: hidden;
+    }
+
+    .pequeno{
+        visibility: visible;
+    }
+   /*preciso arrumar esse negocio aqui para se adeqeuar a atividadeadd*/
+}
+
