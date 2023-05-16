@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: pink;
+}
+
+ body{
+    background-color: rgb(131, 108, 79);
+}
+
+main{
+    display: table;
+    background-color: rgb(185, 139, 171);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.473);
+}
+
+table{
+    
+}
+
+th{
+    font-weight: bold;
+    font-size: 21px;
+}
+td{
+    font-size: 12px;
+}
+tr>th:nth-child(2n){
+    background-color: blue;
+}
+tr>td:nth-child(2n){
+    background-color: blue;
+}
+tr:nth-child(2n+1){
+    background-color: green;
+}
+td:hover,th:hover{
+    color: red;
+    font-size: 34px;
+}
