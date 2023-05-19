@@ -1,0 +1,29 @@
+div{
+    width: 200px;
+    height: 100px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    background-color: black;
+    border-radius: 10px;
+
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 500ms;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+    div:hover{
+    width: 400px;
+    height: 200px;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+    background-color: white;
+    border-radius: 10px;
+
+    transition-property: background-color, width;
+    transition-duration: 2s, 2s;
+    transition-delay: 500ms, 600ms;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1),linear;
+
+    }
