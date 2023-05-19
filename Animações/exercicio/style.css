@@ -10,8 +10,21 @@ div div{
     border-color: green;
     width: 10vw;
     height: 11vh;
-
-
+    animation-name: verde;
+    animation-duration: 5s;
+    animation-delay: 500ms;
 }
 
-@
+@keyframes verde{
+    from{
+    width: 10vw;
+    height: 11vh;
+
+    }
+
+    to{
+    width: 10vw;
+    width: 100vw; 
+
+    }
+}
