@@ -1,0 +1,51 @@
+div:{
+    width: 200px;
+    height: 100px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    background-color: black;
+    border-radius: 10px;
+    /*
+    transition-property: background-color, width, height;
+    transition-delay: 500ms, 2600ms, 600ms;
+    transition-duration: 500ms, 2s, 3s;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1),linear;
+    */
+}
+    div:hover{
+    width: 400px;
+    height: 200px;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+    background-color: white;
+    border-radius: 10px;
+
+    /*transition-property: background-color, width, hight;
+    transition-delay: 500ms, 600ms, 600ms;
+    transition-duration: 2s, 2s, 3s;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1),linear,linear;
+    */
+    }
+
+    #botao:hover{
+        background-color: blueviolet;
+    }
+
+    #botao:hover+#menu{
+        width: 400px;
+        height: 400px;
+
+        transition-property: width, height;
+        transition-duration: 1.5s;
+        transition-delay: 400ms;
+        transition-timing-function: linear;
+
+    }
+
+    #menu:hover{
+        width: 400px;
+        height: 400px;
+        visibility: visible;
+    }

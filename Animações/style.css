@@ -1,0 +1,38 @@
+div{
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("astra.jpg");
+    animation-name: andar;
+    animation-duration: 5s;
+    animation-delay: 500ms;
+    animation-timing-function:linear; /*steps(5); se teleporta pela página*/
+    animation-iteration-count: infinite;
+    /*animation: normal; reverse, alterneate*/
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes andar{
+    0%{
+        left: -200px;
+        top: 0px;
+
+    }
+
+    20%{
+        left: 50vw;
+        top: 50vh;
+    }
+
+    60%{
+        border: 8px purple solid;
+        background-image: url();
+    }
+
+    100%{
+        left: 95vw;
+        top: 0px;
+    }
+}
