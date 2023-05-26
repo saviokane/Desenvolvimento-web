@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.top_space {
+    height: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container>div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: max-content;
+    border-radius: 20px;
+
+    /* Altere aqui */
+    margin: 15px;
+    padding: 8px;
+    
+}
+
+div>img {
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+div>p {
+    /* alterar código aqui */
+    max-width: 400px;
+    margin: 10px;
+}
+
+

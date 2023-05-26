@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(215, 238, 250);
+}
+
+h4 {
+    color:cadetblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h4 {
+    color:cadetblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+h5 {
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
+
+h6 {
+    font-size: 28px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    color:cadetblue;
+}
