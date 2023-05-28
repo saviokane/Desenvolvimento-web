@@ -1,0 +1,87 @@
+
+body{
+    filter: blur(1px);
+    background-image: url(../imagens/all-character.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw,100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    transition: 1.9s;
+
+}
+
+header{
+    color: #d73054;
+    filter: blur(1px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    margin-right: 73%;
+    margin-bottom: 30px;   
+    opacity: 80%;
+    border-bottom:  5px solid #d73054;
+    text-align: left;
+    transition: 1.9s;
+    
+}
+
+.menu{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    
+    border:2px solid #d73054;
+    opacity: 80%;
+    border-radius: 16px;
+    transition: 1.9s;
+}
+.container{
+    overflow: hidden;
+}
+nav a{
+    
+    color: #860e0e;
+    font-size: 52px;
+    text-decoration: dotted;
+    filter: blur(0.1px);
+    
+}
+
+div section {
+    margin-top: 20px;
+    width: 70%;
+    height: 80vh;
+    font-size: 1.8rem;
+    background-color: rgb(212, 45, 81,0.1);
+    float: left;
+    color: aliceblue;
+    border: 2px solid #d73054;
+    transition: 1.9s;
+    
+
+}
+
+div aside {
+    
+    margin-top: 20px;
+    width: 28%;
+    height: 80vh;
+    float: right;
+    background-color: rgb(212, 45, 81,0.1);
+    border: 2px solid #d73054;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 1.9s;
+    
+}
+
+.ref{
+    text-decoration: solid;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
