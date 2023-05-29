@@ -1,9 +1,5 @@
-*{
-  
-}
-
 body{
-    background-image: url("../imagens/home-wallpaper.jpeg");
+    background-image: url("../imagens/background/home-wallpaper.jpeg");
     background-size: 100vw,100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -12,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
+    /*flex-basis: ; testar depois para ver praq serve*/
 }
 .conteiner{
     
@@ -56,4 +52,3 @@ legend h1{
     opacity: 100%;
     transition: 1.9s;
 }
-

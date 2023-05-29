@@ -3,13 +3,12 @@ body{
     filter: blur(1px);
     background-image: url(../imagens/all-character.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw,100vh;
     position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-attachment: fixed;
-    transition: 1.9s;
+    
 
 }
 
@@ -84,4 +83,9 @@ div aside {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+footer div{
+    background-color: rgb(212, 45, 81,0.1);
+    margin-top: 14px;
+    border: 2px solid #f0365b;
 }
